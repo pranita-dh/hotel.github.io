@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  padding: 70px 50px;
+}
+
+/* Some media queries for responsiveness */
+@
+media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 16px 12px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+
+/* Top navbar */
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.topnav-right {
+  float: right;
+  width: 300px;
+}
+/* Thick red border */
+hr.new1 {
+  border: 1px solid red;
+  width:100px;
+  float:left;
+}
+
+/* Gallery */
+div.gallery {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  width: 90%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100%;
+    border-radius: 50%;
+    margin: 10px 0px;
+    padding: 15px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 0px;
+  float: right;
+  width: 22%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 16px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+ <a href="#lorem" style="color:black; font-size: 40px;"><b>Lorem Ipsum<b></a>
+  <br><br>
+  <a href="#about" style="text-decoration-line: line-through;text-decoration-color: red;">About</a>
+  <br>
+  <a href="#services">Services</a>
+  <br>
+  <a href="#cuisine">Cuisine</a>
+  <br>
+  <a href="#gallery">Gallery</a>
+  <br>
+  <a href="#contact">Contact</a>
+  <br>
+  <a href="#book">Book</a>
+ <br>
+ <button class="button">Cart</button>
+</div>
+
+<div class="main">
+<div class="topnav">
+  <div class="topnav-right">
+    <p style="font-size: 18px; font-family: times new Roman;  color: #818181;">Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit,
+sed do eiusmod tempor
+incididunt ut labore et.</p>
+<hr class="new1">
+  </div>
+</div>
+
+
+<div style="font-size:30px; font-family: times new Roman;">
+  <h2>What are you having for Lunch?</h2>
+</div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="img/taco.jpg"width="600" height="400">
+    </a>
+    <div class="desc">Mexican Taco</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="img/pizza.jpg"width="600" height="400">
+    </a>
+    <div class="desc">Farmhouse Pizza</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="img/burger.jpg" width="600" height="400">
+    </a>
+    <div class="desc">Chicken Burger</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="img/nachos.jpg" width="600" height="400">
+    </a>
+    <div class="desc">Loaded Nachos</div>
+  </div>
+</div>
+
+
+
+
+
+</body>
+</html> 
